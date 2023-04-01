@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sen:wght@400;700&display=swap');
+
+.ff_poppins {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-72: 72px;
+    --fs-48: 48px;
+    --fs-36: 36px;
+    --fs-24: 24px;
+    --fs-18: 18px;
+
+
+
+    /* color */
+    --color-black: #000000;
+    --color-lightblack: #393939;
+    --color-white: #FFFFFF;
+    --color-red: #EC0010;
+}
+
+/* color */
+
+.white {
+    color: var(--color-white);
+}
+
+.red {
+    color: var(--color-red);
+}
+
+/* ...bg_color... */
+.bg_black {
+    background: var(--color-black);
+}
+
+.bg_lightblack {
+    background: var(--color-lightblack);
+}
+
+/* font_size */
+
+.fs_72 {
+    font-size: var(--fs-72);
+}
+
+.fs_48 {
+    font-size: var(--fs-48);
+}
+
+.fs_36 {
+    font-size: var(--fs-36);
+}
+
+.fs_24 {
+    font-size: var(--fs-24);
+}
+
+.fs_18 {
+    font-size: var(--fs-18);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+@media (max-width:1250px) {
+    :root {
+        /* font_size */
+        --fs-72: 62px;
+        --fs-48: 48px;
+        --fs-36: 26px;
+        --fs-24: 24px;
+        --fs-18: 18px;
+    }
+}
+@media (max-width:992px) {
+    :root {
+        /* font_size */
+        --fs-72: 62px;
+        --fs-48: 48px;
+        --fs-36: 20px;
+        --fs-24: 20px;
+        --fs-18: 18px;
+    }
+}
+@media (max-width:768px) {
+    :root {
+        /* font_size */
+        --fs-72: 52px;
+        --fs-48: 38px;
+        --fs-36: 19px;
+        --fs-24: 18px;
+        --fs-18: 15px;
+    }
+}@media (max-width:576px) {
+    :root {
+        /* font_size */
+        --fs-72: 42px;
+        --fs-48: 38px;
+        --fs-36: 19px;
+        --fs-24: 24px;
+        --fs-18: 14px;
+    }
+}

@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+.slider_img img {
+    transition: all 1s linear;
+}
+
+.slider_img .slick-center img {
+    transform: scale(1.1);
+}
+.slick-center .d_block{
+    display: block !important;
+}
+.slick-next:before {
+    display: none;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.style_min {
+    background: linear-gradient(180deg, #EC0010 0%, #740008 100%);
+    box-shadow: 2px 2px 0px #F4E803;
+    border-radius: 24px;
+    padding: 10px 24px;
+    max-width: 126px;
+    margin-left: auto;
+    margin-right: auto; 
+}
